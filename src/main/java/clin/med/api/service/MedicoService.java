@@ -39,4 +39,8 @@ public class MedicoService {
         var medico = repositorio.getReferenceById(id);
         medico.inativarMedico();
     }
+
+    public Medico detalharMedico(Long id) {
+        return repositorio.getReferenceById(id);
+    }
 }

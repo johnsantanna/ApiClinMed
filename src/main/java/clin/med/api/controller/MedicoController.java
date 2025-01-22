@@ -48,4 +48,10 @@ public class MedicoController {
         return ResponseEntity.noContent().build();
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity detalharMedico(@PathVariable Long id){
+        return ResponseEntity.ok(new MedicoDetailDTO(servico.detalharMedico(id)));
+    }
+
+
 }
