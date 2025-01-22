@@ -1,3 +1,8 @@
+# IMPORTANTE!!!
+- Este é um projeto academico feito através da escola de programadores **Alura**, existem mudanças e adaptações feitas por mim para efeito didático.
+- Mais informações coloco-me a disposição! 
+- https://www.linkedin.com/in/john-santanna/
+
 # Projeto de Sistema de Médicos
 
 Este é um projeto de demonstração onde estou aplicando conceitos de **Java**, **Spring Boot**, **API REST**, **DTOs**, **Padrões de Projeto**, **Integração com Banco de Dados**, **Git**, e **Paginação**. O objetivo do projeto é criar uma API para gerenciar informações sobre médicos, com funcionalidades de cadastro, consulta e controle de dados.
