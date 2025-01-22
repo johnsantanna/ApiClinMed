@@ -46,6 +46,9 @@ public class PacienteController {
         return ResponseEntity.noContent().build();
     }
 
-
+    @GetMapping("/{id}")
+    public ResponseEntity detalharPaciente(@PathVariable Long id){
+        return ResponseEntity.ok(new PacienteDetailDTO(servico.detalharPaciente(id)));
+    }
 
 }

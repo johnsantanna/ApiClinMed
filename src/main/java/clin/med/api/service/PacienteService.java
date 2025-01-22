@@ -39,4 +39,8 @@ public class PacienteService {
         Optional<Paciente> paciente = repositorio.findById(id);
         paciente.ifPresent(p -> p.active = 0);
     }
+
+    public Paciente detalharPaciente(Long id) {
+        return repositorio.findById(id).orElse(null);
+    }
 }
