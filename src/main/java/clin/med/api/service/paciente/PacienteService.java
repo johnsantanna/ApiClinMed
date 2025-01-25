@@ -1,9 +1,9 @@
-package clin.med.api.service;
+package clin.med.api.service.paciente;
 
 import jakarta.validation.Valid;
-import clin.med.api.DTO.PacienteCreateDTO;
-import clin.med.api.DTO.PacienteResponseDTO;
-import clin.med.api.DTO.PacienteUpdateDTO;
+import clin.med.api.dto.paciente.PacienteCreateDTO;
+import clin.med.api.dto.paciente.PacienteResponseDTO;
+import clin.med.api.dto.paciente.PacienteUpdateDTO;
 import clin.med.api.model.Paciente;
 import clin.med.api.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +41,6 @@ public class PacienteService {
     }
 
     public Paciente detalharPaciente(Long id) {
-        return repositorio.findById(id).orElse(null);
+        return repositorio.getReferenceById(id);
     }
 }

@@ -1,10 +1,12 @@
-package clin.med.api.DTO;
+package clin.med.api.dto.paciente;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.br.CPF;
 
-public record PacienteCreateDTO(
+public record PacienteResponseDTO(
+        @NotNull
         Long id,
         @NotBlank
         String nome,
@@ -12,7 +14,6 @@ public record PacienteCreateDTO(
         String email,
         @NotBlank @CPF
         String cpf,
-        String telefone,
-        EnderecoDTO endereco
+        String telefone
 ) {
 }

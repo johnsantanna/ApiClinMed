@@ -2,8 +2,8 @@ package clin.med.api.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import clin.med.api.DTO.PacienteCreateDTO;
-import clin.med.api.DTO.PacienteUpdateDTO;
+import clin.med.api.dto.paciente.PacienteCreateDTO;
+import clin.med.api.dto.paciente.PacienteUpdateDTO;
 
 @Entity
 @Table(name = "pacientes")

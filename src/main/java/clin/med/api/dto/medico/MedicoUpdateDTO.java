@@ -1,4 +1,4 @@
-package clin.med.api.DTO;
+package clin.med.api.dto.medico;
 
 import jakarta.validation.constraints.NotNull;
 import clin.med.api.model.Endereco;

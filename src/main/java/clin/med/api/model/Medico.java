@@ -2,8 +2,8 @@ package clin.med.api.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import clin.med.api.DTO.MedicoCadastroDTO;
-import clin.med.api.DTO.MedicoUpdateDTO;
+import clin.med.api.dto.medico.MedicoCadastroDTO;
+import clin.med.api.dto.medico.MedicoUpdateDTO;
 
 @Entity @Table(name = "medicos") // JPA ANNOTATIONS
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @EqualsAndHashCode(of = "id") // LOMBOK ANNOTATIONS

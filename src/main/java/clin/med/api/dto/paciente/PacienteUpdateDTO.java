@@ -1,5 +1,6 @@
-package clin.med.api.DTO;
+package clin.med.api.dto.paciente;
 
+import clin.med.api.dto.EnderecoDTO;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 

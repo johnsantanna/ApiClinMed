@@ -1,8 +1,8 @@
-package clin.med.api.service;
+package clin.med.api.service.medico;
 
-import clin.med.api.DTO.MedicoCadastroDTO;
-import clin.med.api.DTO.MedicoConsultaDTO;
-import clin.med.api.DTO.MedicoUpdateDTO;
+import clin.med.api.dto.medico.MedicoCadastroDTO;
+import clin.med.api.dto.medico.MedicoConsultaDTO;
+import clin.med.api.dto.medico.MedicoUpdateDTO;
 import clin.med.api.model.Medico;
 import clin.med.api.repository.MedicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;

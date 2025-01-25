@@ -1,11 +1,11 @@
 package clin.med.api.controller;
 
 import jakarta.validation.Valid;
-import clin.med.api.DTO.PacienteCreateDTO;
-import clin.med.api.DTO.PacienteDetailDTO;
-import clin.med.api.DTO.PacienteResponseDTO;
-import clin.med.api.DTO.PacienteUpdateDTO;
-import clin.med.api.service.PacienteService;
+import clin.med.api.dto.paciente.PacienteCreateDTO;
+import clin.med.api.dto.paciente.PacienteDetailDTO;
+import clin.med.api.dto.paciente.PacienteResponseDTO;
+import clin.med.api.dto.paciente.PacienteUpdateDTO;
+import clin.med.api.service.paciente.PacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

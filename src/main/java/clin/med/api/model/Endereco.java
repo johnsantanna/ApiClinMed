@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import clin.med.api.DTO.EnderecoDTO;
+import clin.med.api.dto.EnderecoDTO;
 
 @Embeddable
 @Getter @Setter
